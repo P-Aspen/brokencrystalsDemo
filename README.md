@@ -27,6 +27,7 @@ npm ci --prefix public && npm run build --prefix public
 #build and start dockers with Postgres DB, nginx and server
 docker-compose --file=docker-compose.local.yml up -d
 
+
 #rebuild dockers
 docker-compose --file=docker-compose.local.yml up -d --build
 ```
